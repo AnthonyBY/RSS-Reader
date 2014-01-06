@@ -115,8 +115,6 @@
 		F3D82464187A3EE80007E110 /* RSS Reader */ = {
 			isa = PBXGroup;
 			children = (
-				F3D8246D187A3EE80007E110 /* AppDelegate.h */,
-				F3D8246E187A3EE80007E110 /* AppDelegate.m */,
 				F3D82470187A3EE80007E110 /* Main.storyboard */,
 				F3D82473187A3EE80007E110 /* MasterViewController.h */,
 				F3D82474187A3EE80007E110 /* MasterViewController.m */,
@@ -131,6 +129,8 @@
 		F3D82465187A3EE80007E110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3D8246D187A3EE80007E110 /* AppDelegate.h */,
+				F3D8246E187A3EE80007E110 /* AppDelegate.m */,
 				F3D82466187A3EE80007E110 /* RSS Reader-Info.plist */,
 				F3D82467187A3EE80007E110 /* InfoPlist.strings */,
 				F3D8246A187A3EE80007E110 /* main.m */,
