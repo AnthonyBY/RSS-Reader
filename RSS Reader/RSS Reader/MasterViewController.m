@@ -35,7 +35,9 @@
     [super viewDidLoad];
     
     feeds = [[NSMutableArray alloc] init];
-    NSURL *url = [NSURL URLWithString:@"http://images.apple.com/main/rss/hotnews/hotnews.rss"];
+    //NSURL *url = [NSURL URLWithString:@"http://images.apple.com/main/rss/hotnews/hotnews.rss"];
+    NSURL *url = [NSURL URLWithString:@"https://news.ycombinator.com/rss"];
+
     parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
     
     [parser setDelegate:self];

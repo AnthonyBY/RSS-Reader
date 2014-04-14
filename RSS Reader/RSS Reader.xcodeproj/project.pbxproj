@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3ACF87C18FC907900CC8C6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3ACF87B18FC907900CC8C6A /* README.md */; };
 		F3D8245F187A3EE80007E110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D8245E187A3EE80007E110 /* Foundation.framework */; };
 		F3D82461187A3EE80007E110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D82460187A3EE80007E110 /* CoreGraphics.framework */; };
 		F3D82463187A3EE80007E110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D82462187A3EE80007E110 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3ACF87B18FC907900CC8C6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3D8245B187A3EE80007E110 /* RSS Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D8245E187A3EE80007E110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3D82460187A3EE80007E110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +87,7 @@
 		F3D82452187A3EE80007E110 = {
 			isa = PBXGroup;
 			children = (
+				F3ACF87B18FC907900CC8C6A /* README.md */,
 				F3D82464187A3EE80007E110 /* RSS Reader */,
 				F3D82486187A3EE90007E110 /* RSS ReaderTests */,
 				F3D8245D187A3EE80007E110 /* Frameworks */,
@@ -235,6 +238,7 @@
 			files = (
 				F3D8247A187A3EE80007E110 /* Images.xcassets in Resources */,
 				F3D82469187A3EE80007E110 /* InfoPlist.strings in Resources */,
+				F3ACF87C18FC907900CC8C6A /* README.md in Resources */,
 				F3D82472187A3EE80007E110 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +470,7 @@
 				F3D82492187A3EE90007E110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3D82493187A3EE90007E110 /* Build configuration list for PBXNativeTarget "RSS ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				F3D82495187A3EE90007E110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
